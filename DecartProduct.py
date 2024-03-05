@@ -1,10 +1,10 @@
 def decart_product(list1, list2):
     decart_list = []
-    for i in list1:
-        line = []
-        for j in list2:
-            line.append((i, j))
-        decart_list.append(line)
+    for num in list1:
+        index = []
+        decart_list.append(index)
+        for char in list2:
+            index.append((num, char))
     return decart_list
 
 
